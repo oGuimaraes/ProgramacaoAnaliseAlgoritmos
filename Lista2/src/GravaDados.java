@@ -47,7 +47,7 @@ public class GravaDados {
 			System.out.println("Dados Gravados com sucesso");
 			
 		}
-		catch(Exception e) { //Tratamento gen�rico da excess�o ocorrida
+		catch(Exception e) { //Tratamento generico da excessao ocorrida
 			System.out.println("O seguinte erro ocorreu: " + e.toString());
 		}
 		
