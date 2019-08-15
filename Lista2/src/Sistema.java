@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Scanner;
 
 public class Sistema {
 
@@ -37,7 +38,39 @@ public class Sistema {
         }
     }
 
-    public static void main(String[] args) {
-        insereAluno();
+    public static void pesquisaAluno(){
+
+    }
+
+    private static StringBuilder getInfoAluno() throws FileNotFoundException {
+        Scanner in = new Scanner(new FileReader("alunos.txt"));
+
+        String nome = null, idade = null, codigo = null;
+
+        System.out.print("Digite o nome ou idade: ");
+        String chave = Teclado.readLine();
+
+        StringBuilder sb = new StringBuilder();
+        System.out.println();
+
+        while (in.hasNextLine()) {
+            String line = in.nextLine();
+            String[] linha = line.split(" ");
+
+            if (linha[1].equals(chave) || linha[2].equals(chave) ) {
+                codigo = linha[0];
+                nome = linha[1];
+                idade = linha[2];
+                sb.append("Codigo: " + codigo + "| Nome: " + nome + " | Idade: " + idade + "\n");
+            }
+        }
+        if (sb.length() == 0) {
+            sb.append("Aluno não encontrado.");
+        }
+        return sb;
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        System.out.println(getInfoAluno());
     }
 }
