@@ -3,6 +3,48 @@ import java.util.Scanner;
 
 public class Sistema {
 
+    public static void main(String[] args) throws IOException {
+        menu();
+    }
+
+    private static void menu() throws IOException { // menu principal
+        int opcao = 0;
+        do {
+            System.out.println("\n### SCA - Sistema de Cadastro de Alunos ###");
+            System.out.println("       =============================         ");
+            System.out.println("      |    1. Inserir novo aluno    |");
+            System.out.println("      |    2. Pesquisar aluno       |");
+            System.out.println("      |    3. Fazer backup          |");
+            System.out.println("      |    4. Estatísticas          |");
+            System.out.println("      |                             |");
+            System.out.println("      |    0. Sair                  |");
+            System.out.println("       =============================\n");
+
+            System.out.print("Informe uma opcao: ");
+            opcao = Teclado.readInt();
+            System.out.print("\n");
+            switch (opcao) {
+                case 1:
+                    insereAluno();
+                    break;
+                case 2:
+                    System.out.println(getInfoAluno());
+                    break;
+                case 3:
+                    backupArquivo();
+                    break;
+                case 4:
+                    System.out.println(estatistica());
+                    break;
+                case 0:
+                    break;
+                default:
+                    System.out.println("Opção Inválida!");
+                    break;
+            }
+        } while (opcao != 0);
+    }
+
     public static void insereAluno() {
         BufferedWriter bw = null;
 
@@ -100,8 +142,9 @@ public class Sistema {
         }
     }
 
-    private static void estatistica() throws IOException {
+    private static StringBuilder estatistica() throws IOException {
         BufferedWriter estatistica = null;
+        StringBuilder estatisticaString = new StringBuilder();
         try {
             estatistica = new BufferedWriter(new FileWriter("estatistica.txt"));
             Scanner in = new Scanner(new FileReader("alunos.txt"));
@@ -128,6 +171,8 @@ public class Sistema {
             estatistica.newLine();
             estatistica.flush();
 
+            estatisticaString.append("Numero de Alunos: " + quantidadeAlunos).append("\nMedia de Idade: " + mediaIdade).append("\nMaior Idade: " + maiorIdade);
+
 
         } catch (IOException ioe) {
             ioe.printStackTrace();
@@ -140,13 +185,8 @@ public class Sistema {
                 }
             }
         }
+
+        return estatisticaString;
     }
 
-
-    public static void main(String[] args) throws IOException {
-        insereAluno();
-        System.out.println(getInfoAluno());
-        backupArquivo();
-        estatistica();
-    }
 }
