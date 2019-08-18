@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd5e8dd8-23a7-48d0-be21-5526376e19b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/alunos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alunos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estatistica.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estatistica.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sistema.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sistema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="768">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,18 +155,17 @@
       <updated>1565748462493</updated>
       <workItem from="1565748465951" duration="569000" />
       <workItem from="1565749180843" duration="117000" />
-      <workItem from="1565884376328" duration="15989000" />
+      <workItem from="1565884376328" duration="19523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16675000" />
+    <option name="totallyTimeSpent" value="20209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1505295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -174,7 +174,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34042552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26022914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sistema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="768">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

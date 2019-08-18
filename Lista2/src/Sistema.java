@@ -14,8 +14,9 @@ public class Sistema {
             System.out.println("       =============================         ");
             System.out.println("      |    1. Inserir novo aluno    |");
             System.out.println("      |    2. Pesquisar aluno       |");
-            System.out.println("      |    3. Fazer backup          |");
-            System.out.println("      |    4. Estatísticas          |");
+            System.out.println("      |    3. Listar alunos         |");
+            System.out.println("      |    4. Fazer backup          |");
+            System.out.println("      |    5. Estatísticas          |");
             System.out.println("      |                             |");
             System.out.println("      |    0. Sair                  |");
             System.out.println("       =============================\n");
@@ -31,9 +32,12 @@ public class Sistema {
                     System.out.println(getInfoAluno());
                     break;
                 case 3:
-                    backupArquivo();
+                    listaAlunos();
                     break;
                 case 4:
+                    backupArquivo();
+                    break;
+                case 5:
                     System.out.println(estatistica());
                     break;
                 case 0:
@@ -50,8 +54,6 @@ public class Sistema {
 
         try {
             bw = new BufferedWriter(new FileWriter("alunos.txt", true));
-
-
             String linha = recebeDadosAluno();
 
             bw.write(linha);
@@ -115,14 +117,28 @@ public class Sistema {
         return sb;
     }
 
+    private static void listaAlunos() throws IOException {
+        Scanner alunos = new Scanner(new FileReader("alunos.txt"));
+        //StringBuilder alunosString = new StringBuilder();
+        int contador = 1;
+
+        while (alunos.hasNextLine()) {
+            String linha = alunos.nextLine();
+            String[] dadosAlunos = linha.split(" ");
+            System.out.println(contador + ". " + dadosAlunos[1] + "");
+            contador++;
+            //alunosString.append(contador + ". " + dadosAlunos[0] + "\n");
+        }
+    }
+
     private static void backupArquivo() throws IOException {
         BufferedWriter backup = null;
         try {
             backup = new BufferedWriter(new FileWriter("alunos(backup).txt"));
-            Scanner in = new Scanner(new FileReader("alunos.txt"));
+            Scanner alunos = new Scanner(new FileReader("alunos.txt"));
 
-            while (in.hasNextLine()) {
-                String linha = in.nextLine();
+            while (alunos.hasNextLine()) {
+                String linha = alunos.nextLine();
                 backup.write(linha);
                 backup.newLine();
                 backup.flush();
@@ -172,7 +188,6 @@ public class Sistema {
             estatistica.flush();
 
             estatisticaString.append("Numero de Alunos: " + quantidadeAlunos).append("\nMedia de Idade: " + mediaIdade).append("\nMaior Idade: " + maiorIdade);
-
 
         } catch (IOException ioe) {
             ioe.printStackTrace();
