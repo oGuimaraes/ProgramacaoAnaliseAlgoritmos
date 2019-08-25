@@ -2,18 +2,35 @@ import java.io.*;
 
 public class Aluno implements Registro {
 	protected int codigo;
+	private static int codigoStatico = 1;
 	protected String nome;
 	protected int idade;
-
-	Aluno(String nome, int codigo, int idade){
-		this.nome = nome;
-		this.codigo = codigo;
-		this.idade = idade;
-	}
 
 	Aluno(){}
 
 	public final static int TAM_NOME = 20;
+
+	Aluno(String nome, int idade) throws IOException {
+		this.nome = nome;
+		this.codigo = codigoStatico++;
+		this.idade = idade;
+	}
+
+	public int returnCodigoAutoIncrementavel() throws IOException {
+		//RandomAccessFile file = new RandomAccessFile("Alunos.txt", "r");
+
+		//Obtém o tamanho do registro (primeiros 4 bytes)
+		//int size = file.readInt();
+
+		//Obtem os demais bytes (4 do código + restantes ref ao Nome)
+		//byte b [] = new byte[size];
+
+		//file.read(b); //Armazena em b
+		//System.out.println(size);
+		//file.seek(0);
+		//System.out.println("" + file.readUTF());
+		return 2;
+	}
 
 	public void setCodigo(int codigo) {
 		this.codigo = codigo;
