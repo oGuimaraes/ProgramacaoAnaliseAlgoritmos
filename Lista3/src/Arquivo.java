@@ -58,13 +58,11 @@ public class Arquivo {
 			a.setByteArray(b); //carregaDados
 			//a.print();
 
-
 			if (a.getNome().trim().equals(nome)) {
 				file.close();
 				return a;
 			}
-			cont = cont + 4 + size + 4;
-
+			cont = cont + 4 + size + 4 + 4;
 		}
 		file.close();
 		return null;
@@ -74,7 +72,7 @@ public class Arquivo {
 		RandomAccessFile file = new RandomAccessFile(nomeArquivo, "rw");
 		file.seek(0);
 
-		int tam_registro_bytes = 4 + 4 + Aluno.TAM_NOME;
+		int tam_registro_bytes = 4 + 4 + Aluno.TAM_NOME + 4;
 		int numRegistros = (int)file.length() / tam_registro_bytes;
 
 		long pos_inicial = 0;
@@ -111,7 +109,6 @@ public class Arquivo {
 				pos_final = pos_meio - tam_registro_bytes;
 			else
 				pos_inicial = pos_meio + tam_registro_bytes;
-
 		}
 
 		return null;

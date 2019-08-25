@@ -15,9 +15,9 @@ public class Sistema {
         arquivo.salvarRegistro(aluno3);
         arquivo.salvarRegistro(aluno4);
 
-        System.out.println(arquivo.pesquisaArquivo("Pedro"));
+        System.out.println(arquivo.pesquisaArquivo("Mariana"));
 
-        System.out.println(arquivo.pesquisaTernario(199));
+        System.out.println(arquivo.pesquisaTernario(123));
 
     }
 

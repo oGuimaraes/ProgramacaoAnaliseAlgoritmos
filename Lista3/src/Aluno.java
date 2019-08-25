@@ -58,11 +58,9 @@ public class Aluno implements Registro {
 		ByteArrayOutputStream registro = new ByteArrayOutputStream();
 		DataOutputStream saida = new DataOutputStream(registro);
 		saida.writeInt(codigo);
-
+		saida.writeInt(idade);
 		//Escreve Tamanho Fixo
 		saida.write((getStringTamanhoFixo(nome,TAM_NOME)).getBytes());
-		//saida.writeInt(idade);
-
 
 		return registro.toByteArray();
 	}
@@ -71,9 +69,10 @@ public class Aluno implements Registro {
 		ByteArrayInputStream registro = new ByteArrayInputStream(b);
 		DataInputStream entrada = new DataInputStream(registro);
 		codigo = entrada.readInt();
+		idade = entrada.readInt();
 		//nome = entrada.readUTF();
 		nome = entrada.readLine();
-		//idade = entrada.readInt();
+
 	}
 
 	public int compareTo(Object b) {
