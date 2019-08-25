@@ -68,7 +68,7 @@ public class Sistema {
                     System.out.println("Dados Gravados com sucesso");
                     bw.close();
                 } catch (IOException ioe2) {
-                    // just ignore it
+                    ioe2.printStackTrace();
                 }
             }
         }
@@ -152,7 +152,7 @@ public class Sistema {
                     System.out.println("Backup efetuado com sucesso");
                     backup.close();
                 } catch (IOException ioe2) {
-                    // just ignore it
+                    ioe2.printStackTrace();
                 }
             }
         }
@@ -196,11 +196,10 @@ public class Sistema {
                 try {
                     estatistica.close();
                 } catch (IOException ioe2) {
-                    // just ignore it
+                    ioe2.printStackTrace();
                 }
             }
         }
-
         return estatisticaString;
     }
 
