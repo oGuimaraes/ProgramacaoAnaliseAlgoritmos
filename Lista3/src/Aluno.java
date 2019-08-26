@@ -100,7 +100,7 @@ public class Aluno implements Registro {
 		return ((Aluno) super.clone());
 	}
 
-	public void print() {
-		System.out.println(this.codigo + " " + this.nome);
-	}
+//	public void print() {
+//		System.out.println(this.codigo + " " + this.nome);
+//	}
 }

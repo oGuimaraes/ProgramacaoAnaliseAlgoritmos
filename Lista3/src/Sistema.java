@@ -5,15 +5,15 @@ public class Sistema {
     public static void main(String[] args) throws IOException {
         Arquivo arquivo = new Arquivo("Alunos");
 
-        Aluno aluno1 = new Aluno("Luis", 23);
+        Aluno aluno1 = new Aluno("Antonio", 23);
         Aluno aluno2 = new Aluno("Mariana", 15);
-        Aluno aluno3 = new Aluno("Pedro", 33);
+        Aluno aluno3 = new Aluno("Gilberto", 33);
         Aluno aluno4 = new Aluno("Valeria",  26);
         Aluno aluno5 = new Aluno("Richard",  14);
         Aluno aluno6 = new Aluno("Mateus",  19);
         Aluno aluno7 = new Aluno("Larissa",  36);
         Aluno aluno8 = new Aluno("Frederico",  18);
-        Aluno aluno9 = new Aluno("Tiago",  22);
+        Aluno aluno9 = new Aluno("Anderson",  22);
 
         arquivo.salvarRegistro(aluno1);
         arquivo.salvarRegistro(aluno2);
@@ -27,7 +27,11 @@ public class Sistema {
 
         System.out.println(arquivo.pesquisaArquivo("Mariana"));
 
-        System.out.println(arquivo.pesquisaBinaria(7));
+        for (int i = 1; i <= 9; i++){
+            System.out.println(arquivo.pesquisaBinaria(i));
+        }
+
+
     }
 
 }

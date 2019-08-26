@@ -4,6 +4,7 @@
     <list default="true" id="f35c7bbd-0d60-4ae6-8d2b-fc2a6ef6215c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alunos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arquivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sistema.java" afterDir="false" />
     </list>
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1019">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="229">
+              <caret line="102" selection-start-line="102" selection-start-column="2" selection-end-line="104" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sistema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="75">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -49,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
@@ -83,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/Registro.java" />
         <option value="$PROJECT_DIR$/Alunos.txt" />
         <option value="$PROJECT_DIR$/src/Aluno.java" />
-        <option value="$PROJECT_DIR$/src/Arquivo.java" />
         <option value="$PROJECT_DIR$/src/Sistema.java" />
+        <option value="$PROJECT_DIR$/src/Arquivo.java" />
       </list>
     </option>
   </component>
@@ -175,17 +176,18 @@
       <option name="presentableId" value="Default" />
       <updated>1566654033270</updated>
       <workItem from="1566654037033" duration="11302000" />
-      <workItem from="1566755197424" duration="10230000" />
+      <workItem from="1566755197424" duration="12740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21532000" />
+    <option name="totallyTimeSpent" value="24042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -194,7 +196,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28477904" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28641573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,13 +257,6 @@
     <entry file="file://$PROJECT_DIR$/Alunos.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alunos">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arquivo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -278,22 +273,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aluno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="229">
+          <caret line="102" selection-start-line="102" selection-start-column="2" selection-end-line="104" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alunos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="160" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sistema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="75">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />

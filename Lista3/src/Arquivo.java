@@ -34,7 +34,6 @@ public class Arquivo {
 
 			Aluno a = new Aluno();
 			a.setByteArray(b);
-			a.print();
 
 			cont = cont + 4 + size + 4;
 
@@ -124,41 +123,38 @@ public class Arquivo {
 		int tam_registro_bytes = 4 + 4 + 4 + Aluno.TAM_NOME;
 
 		// pos = 4, pulamos o tamanho do size
-		long pos_inicial = 4;
+		long pos_inicial = 0;
 		long pos_final = file.length() - tam_registro_bytes;
 		long pos_meio, pos_meio2;
 
 		while (pos_inicial <= pos_final) {
 
 			pos_meio = pos_inicial + (pos_final - pos_inicial) / 3;
-			pos_meio2 = pos_inicial + 2 * (pos_final - pos_inicial) / 3;
+			pos_meio2 = pos_final  - (pos_final - pos_inicial) / 3;
 
 			// ler o registro na posicao definida
 			int size = file.readInt();
 			byte b[] = new byte[size];
 			file.read(b);
 
-			// carrega o objeto da classe aluno e verifica o código
+			// carrega o objeto da classe aluno e verifica o codigo
 			Aluno a = new Aluno();
 			a.setByteArray(b);
 
-			// se o código for igual, retorna o registro
+			// se o cÃ³digo for igual, retorna o registro
 			if (a.getCodigo() == codigo) {
 
 //            if(a.ultimoId(b) == codigo) {
 				file.close();
 
-				a.print();
-
 				return a;
-				// primeiro 1/3
 			} else if (codigo < a.getCodigo()) {
-				pos_final = pos_meio - tam_registro_bytes;
+				pos_final = pos_meio - 1;
 			} else if (codigo > a.getCodigo()) {
-				pos_inicial = pos_meio2 + tam_registro_bytes;
+				pos_inicial = pos_meio2;
 			} else {
-				pos_inicial = pos_meio + tam_registro_bytes;
-				pos_final = pos_meio2 - tam_registro_bytes;
+				pos_inicial = pos_meio;
+				pos_final = pos_meio2;
 			}
 		}
 		file.close();
