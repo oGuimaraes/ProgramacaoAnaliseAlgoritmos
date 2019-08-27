@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c7bbd-0d60-4ae6-8d2b-fc2a6ef6215c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lista2/src/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teclado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alunos" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="102" selection-start-line="102" selection-start-column="2" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="685">
+              <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -32,8 +33,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sistema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="-192">
+              <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
+            <state relative-caret-position="416">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
@@ -72,6 +76,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>system</find>
+      <find>font</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,8 +89,9 @@
         <option value="$PROJECT_DIR$/src/Registro.java" />
         <option value="$PROJECT_DIR$/Alunos.txt" />
         <option value="$PROJECT_DIR$/src/Aluno.java" />
-        <option value="$PROJECT_DIR$/src/Sistema.java" />
+        <option value="$PROJECT_DIR$/Alunos" />
         <option value="$PROJECT_DIR$/src/Arquivo.java" />
+        <option value="$PROJECT_DIR$/src/Sistema.java" />
       </list>
     </option>
   </component>
@@ -135,6 +141,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tavin\OneDrive\Engenharia de Software\3º Semestre\Programação e Análise de Algoritimos\Listas\Lista3\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tavin\OneDrive\Engenharia de Software\3º Semestre\Programação e Análise de Algoritimos\Lista3\src" />
     </key>
@@ -176,15 +185,15 @@
       <option name="presentableId" value="Default" />
       <updated>1566654033270</updated>
       <workItem from="1566654037033" duration="11302000" />
-      <workItem from="1566755197424" duration="12740000" />
+      <workItem from="1566755197424" duration="17960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24042000" />
+    <option name="totallyTimeSpent" value="29262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
@@ -196,8 +205,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28641573" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36988544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -264,6 +273,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Alunos">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sistema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Registro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -271,31 +300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="102" selection-start-line="102" selection-start-column="2" selection-end-line="104" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alunos">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sistema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
+        <state relative-caret-position="416">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />

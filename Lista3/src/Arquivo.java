@@ -13,7 +13,6 @@ public class Arquivo {
 		this.nomeArquivo = "";
 	}
 
-
 	public void salvarRegistro(Registro r) throws IOException {
 		RandomAccessFile file = new RandomAccessFile(nomeArquivo, "rw");
 		file.seek(file.length());
@@ -34,7 +33,7 @@ public class Arquivo {
 
 			Aluno a = new Aluno();
 			a.setByteArray(b);
-
+			System.out.println(a);
 			cont = cont + 4 + size + 4;
 
 		}
@@ -141,7 +140,7 @@ public class Arquivo {
 			Aluno a = new Aluno();
 			a.setByteArray(b);
 
-			// se o cÃ³digo for igual, retorna o registro
+			// se o codigo for igual, retorna o registro
 			if (a.getCodigo() == codigo) {
 
 //            if(a.ultimoId(b) == codigo) {

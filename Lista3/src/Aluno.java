@@ -87,9 +87,7 @@ public class Aluno implements Registro {
 		DataInputStream entrada = new DataInputStream(registro);
 		codigo = entrada.readInt();
 		idade = entrada.readInt();
-		//nome = entrada.readUTF();
 		nome = entrada.readLine();
-
 	}
 
 	public int compareTo(Object b) {
