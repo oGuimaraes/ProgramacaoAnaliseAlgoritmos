@@ -148,10 +148,13 @@ public class Arquivo {
 
 				return a;
 			} else if (codigo < a.getCodigo()) {
-				pos_final = pos_meio - 1;
+				System.out.println("1");
+				pos_final = pos_meio;
 			} else if (codigo > a.getCodigo()) {
+				System.out.println("2");
 				pos_inicial = pos_meio2;
 			} else {
+				System.out.println("3");
 				pos_inicial = pos_meio;
 				pos_final = pos_meio2;
 			}

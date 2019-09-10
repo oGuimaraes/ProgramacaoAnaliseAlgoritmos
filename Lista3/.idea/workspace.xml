@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c7bbd-0d60-4ae6-8d2b-fc2a6ef6215c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lista2/src/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teclado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista2/alunos(backup).txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista2/alunos(backup).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista2/alunos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista2/alunos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista2/estatistica.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista2/estatistica.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alunos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sistema.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +22,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+            <state relative-caret-position="400">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sistema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="1392">
+              <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,26 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Registro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="208">
+              <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
               <folding>
+                <element signature="e#95#96#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alunos">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/Alunos.txt" />
         <option value="$PROJECT_DIR$/src/Aluno.java" />
         <option value="$PROJECT_DIR$/Alunos" />
-        <option value="$PROJECT_DIR$/src/Arquivo.java" />
         <option value="$PROJECT_DIR$/src/Sistema.java" />
+        <option value="$PROJECT_DIR$/src/Arquivo.java" />
       </list>
     </option>
   </component>
@@ -118,11 +118,6 @@
             <path>
               <item name="Lista3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lista3" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lista3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lista3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -136,7 +131,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BinarioProvaFuncionando" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -185,18 +180,20 @@
       <option name="presentableId" value="Default" />
       <updated>1566654033270</updated>
       <workItem from="1566654037033" duration="11302000" />
-      <workItem from="1566755197424" duration="17960000" />
+      <workItem from="1566755197424" duration="20606000" />
+      <workItem from="1567379121679" duration="168000" />
+      <workItem from="1568111410081" duration="910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29262000" />
+    <option name="totallyTimeSpent" value="32986000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -205,7 +202,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36988544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06546645" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,49 +260,43 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Teste" />
-    <entry file="file://$PROJECT_DIR$/Alunos.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arquivo2.java">
+    <entry file="file://$PROJECT_DIR$/Alunos.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Arquivo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Registro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="118" selection-start-line="118" selection-end-line="166" selection-end-column="9" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alunos">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aluno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+        <state relative-caret-position="400">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sistema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="1392">
+          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Registro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Alunos">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arquivo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="208">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
           <folding>
+            <element signature="e#95#96#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
